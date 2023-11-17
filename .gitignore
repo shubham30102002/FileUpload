@@ -1,0 +1,6 @@
+/node_modules
+/.env
+/photo.JPG
+
+/package-lock.json
+/package.json
