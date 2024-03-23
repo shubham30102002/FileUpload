@@ -57,25 +57,25 @@ Before running the application, make sure you have the following installed:
 
 ### 1. Local File Upload
 
-- **POST** `/api/localFileUpload`
+- **POST** `/api/v1/upload/localFileUpload`
 
   Upload a media file (image or video) locally.
 
 ### 2. Image Upload to Cloudinary
 
-- **POST** `/api/imageUpload`
+- **POST** `/api/v1/upload/imageUpload`
 
   Upload an image to Cloudinary.
 
 ### 3. Video Upload to Cloudinary
 
-- **POST** `/api/videoUpload`
+- **POST** `/api/v1/upload/videoUpload`
 
   Upload a video to Cloudinary.
 
 ### 4. Image Size Reduction
 
-- **POST** `/api/imageSizeReducer`
+- **POST** `/api/v1/upload/imageSizeReducer`
 
   Reduce the size of an uploaded image using Cloudinary transformations.
 
